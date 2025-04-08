@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_preorder - Parcourt un arbre binaire en utilisant l'ordre préfixe
+ * binary_tree_preorder - Parcourt un arbre binaire, utilisant l'ordre préfixe
  * @tree: Pointeur vers la racine de l'arbre à parcourir
  * @func: Pointeur vers une fonction à appeler pour chaque valeur de nœud
  *
