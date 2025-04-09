@@ -10,7 +10,7 @@
  */
 
 size_t binary_tree_depth(const binary_tree_t *tree)
- {
+{
 	int max_depth;
 
 	/* Si le nœud est NULL ou si c’est la racine, la profondeur est 0 */
@@ -22,4 +22,4 @@ size_t binary_tree_depth(const binary_tree_t *tree)
 
 	/* On ajoute 1 pour chaque niveau remonté */
 	return (max_depth + 1);
- }
+}
